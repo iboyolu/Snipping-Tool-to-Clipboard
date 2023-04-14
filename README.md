@@ -24,7 +24,7 @@ This Python script automatically converts images copied from the Windows Snippin
 ## Usage
 
 1. Open the Windows Snipping Tool and capture an image.
-2. Copy the image to the clipboard by pressing `Ctrl+C` or clicking the "Copy" button in the Snipping Tool.
+2. If image is not your clipboard automatically copy the image to the clipboard by pressing `Ctrl+C` or clicking the "Copy" button in the Snipping Tool.
 3. Run the `snipping_tool_ocr.py` script by running the following command in your terminal or command prompt:
 
 ```python snipping_tool_ocr.py```
