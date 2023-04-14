@@ -1,7 +1,8 @@
 from PIL import Image, ImageEnhance, ImageGrab
 import pytesseract
 import pyperclip
-print("Hello, world!")
+import re
+print("Hello World!")
 
 while True:
     # Wait for a new image to be pasted into the clipboard
@@ -25,6 +26,9 @@ while True:
 
         # Perform OCR on the image
         text = pytesseract.image_to_string(image, lang='eng', config='--psm 6 --oem 1')
+
+        # Clean up the text
+        text = re.sub(r'[^\x00-\x7F]+', '', text)
 
         # Write the output back to the clipboard
         pyperclip.copy(text)
