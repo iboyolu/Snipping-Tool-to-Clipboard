@@ -1,22 +1,21 @@
 import datetime
 import os
-import time
-import pyperclip
-import re
-from PIL import Image, ImageEnhance, ImageGrab
-from pytesseract import pytesseract
-"""
 import sys
 import textwrap
+import time
 import autopep8
 import cv2
+import pyperclip
 import pyocr.builders
 import textract
 import kraken
 import kraken.lib
 import pandas
+import re
+from PIL import Image, ImageEnhance, ImageGrab
 from pyocr import pyocr
-"""
+from pytesseract import pytesseract
+
 timestamp = None
 global pics_dir_path
 pics_dir_path = None
