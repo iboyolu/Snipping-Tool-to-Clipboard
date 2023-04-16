@@ -16,7 +16,7 @@ This is a Python script that performs OCR on images copied to the clipboard. The
 
 ## Usage
 
-1. Run the script using the command `python ocr_clipboard_image.py`.
+1. Run the script using the command `python main.py`.
 2. Copy an image to the clipboard (e.g. a screenshot of text).
 3. The script will automatically detect the new image in the clipboard and perform OCR on it.
 4. The OCR output will be copied to the clipboard and saved to a text file in the `pics` directory.
